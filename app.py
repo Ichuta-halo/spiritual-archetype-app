@@ -71,10 +71,11 @@ TEMPLATE = """
 
     {% if archetype %}
     <div class="result">
-        <h2>This day's Archetype</h2>
-        <p style="font-size: 16px; max-width: 400px; margin: auto;">
-        Each day carries its own spiritual signature. Discover the archetype of any date—whether it's your birthday, today, or a meaningful memory.
-        </p>
+        <h2 style="color: #0077cc;">This day's Archetype</h2>
+        <p style="font-size: 16px; max-width: 400px; margin: auto; color: #02066F;">
+    Each day carries its own spiritual signature. Discover the archetype of any date—whether it's your birthday, today, or a meaningful memory.
+    </p>
+
         <a href="/" class="button">Every day is an archetypal day</a>
     </div>
     {% elif error %}
