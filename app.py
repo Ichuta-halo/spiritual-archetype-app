@@ -24,11 +24,15 @@ TEMPLATE = """
     <title>Spiritual Archetype Finder</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #B2AC88;
-            padding: 40px;
-            text-align: center;
-        }
+    font-family: Arial, sans-serif;
+    background-image: url("https://mrmrsjackson.wordpress.com/wp-content/uploads/2025/05/8d092d9f-f9e5-427c-996a-3eaa56c37d09.jpeg?w=2048");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
         form, .result {
             margin-top: 30px;
         }
