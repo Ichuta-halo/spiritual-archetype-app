@@ -27,7 +27,7 @@ TEMPLATE = """
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <style>
         body {
-    font-family: Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     background-image: url("https://mrmrsjackson.wordpress.com/wp-content/uploads/2025/05/8d092d9f-f9e5-427c-996a-3eaa56c37d09.jpeg?w=2048");
     background-size: cover;
     background-position: center;
