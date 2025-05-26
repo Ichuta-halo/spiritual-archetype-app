@@ -44,7 +44,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(2, 6, 111, 0.3);
+    background-color: rgba(2, 6, 111, 0.4);
     z-index: -1;
 }
         h1 {
@@ -83,12 +83,12 @@ body::before {
     </form>
 
     {% if archetype %}
-    <p style="font-size: 36px; font-weight: bold; color: #2e3d2f;">{{ archetype }}</p>
+    <p style="font-size: 36px; font-weight: bold; color: #0007b5;">{{ archetype }}</p>
     {% endif %}
 
     {% if archetype %}
     <div class="result">
-        <h2 style="color: #0077cc;">This day's Archetype</h2>
+        <h2 style="color: #02066F;">This day's Archetype</h2>
         <p style="font-size: 16px; max-width: 400px; margin: auto; color: #02066F;">
     Each day carries its own spiritual signature. Discover the archetype of any date—whether it's your birthday, today, or a meaningful memory.
     </p>
