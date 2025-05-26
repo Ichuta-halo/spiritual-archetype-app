@@ -22,6 +22,9 @@ TEMPLATE = """
 <html>
 <head>
     <title>Spiritual Archetype Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <style>
         body {
     font-family: Arial, sans-serif;
@@ -33,6 +36,9 @@ TEMPLATE = """
     text-align: center;
     color: #fff;
 }
+        h1 {
+        font-family: 'Playfair Display', serif;
+}        
         form, .result {
             margin-top: 30px;
         }
