@@ -32,9 +32,20 @@ TEMPLATE = """
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 40px;
     text-align: center;
     color: #fff;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 6, 111, 0.5); /* navy with 50% opacity */
+    z-index: -1;
 }
         h1 {
         font-family: 'Playfair Display', serif;
