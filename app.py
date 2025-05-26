@@ -44,7 +44,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(2, 6, 111, 0.5); /* navy with 50% opacity */
+    background-color: rgba(2, 6, 111, 0.3);
     z-index: -1;
 }
         h1 {
